@@ -1,0 +1,324 @@
+body {
+    background-color: #2f2f2f; /* fondo general */
+    color: white;
+    margin: 0;
+    font-family: 'Georgia', serif;
+  }
+
+.intro {
+    background-image: url(photos/intro.jpg); /* ruta de tu imagen */
+    background-size: cover;      /* que cubra toda la sección */
+    background-position: center; /* centrado */
+    background-repeat: no-repeat;
+    height: 100vh;               /* ocupa toda la altura del viewport */
+    display: flex;               /* para centrar el contenido */
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: rgb(255, 255, 255);                /* texto blanco encima de imagen oscura */
+    padding: 0 20px;
+}
+
+.hero-text-1 h1 {
+    font-size: 3rem;
+    font-weight: normal;
+    margin-bottom: 20px;
+}
+  
+.hero-text-1 button {
+    background-color: rgba(255, 255, 255, 0.3);
+    border: none;
+    padding: 12px 24px;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.favoritos {
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.favoritos h2 {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+    font-weight: normal;
+}
+
+.productos {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.producto {
+    max-width: 300px;
+    text-align: center;
+}
+
+.producto h3 {
+    margin-top: 20px;
+    font-size: 1.2rem;
+}
+
+.producto img {
+    width: 300px;
+    height: 400px;
+}
+
+.producto button{
+    background-color: rgba(255, 255, 255, 0.3);
+    border: none;
+    padding: 12px 24px;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.producto button:hover {
+    background-color: #a0a098;
+}
+
+.nosotros{
+    background-image: url(photos/hojas-oscuras.png); /* ruta de tu imagen */
+    background-size: cover;      /* que cubra toda la sección */
+    background-position: center; /* centrado */
+    background-repeat: no-repeat;
+    height: 80vh;               /* ocupa toda la altura del viewport */
+    display: flex;               /* para centrar el contenido */
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: rgb(255, 255, 255);                /* texto blanco encima de imagen oscura */
+    padding: 0 20px;
+}
+
+.nosotros button{
+    background-color: rgba(255, 255, 255, 0.3);
+    border: none;
+    padding: 12px 24px;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.nosotros button:hover {
+    background-color: #a0a098;
+}
+
+.diario{
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.diario h2 {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+    font-weight: normal;
+}
+
+.reseñas {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.reseña {
+    max-width: 300px;
+    text-align: center;
+}
+
+.reseña h3 {
+    margin-top: 25px;
+    font-size: 1.2rem;
+}
+
+.reseña h4 {
+    margin-top: 20px;
+    font-size: 1rem;
+}
+
+.reseña img {
+    width: 300px;
+    height: 400px;
+}
+
+.reseña button{
+    background-color: rgba(255, 255, 255, 0.3);
+    border: none;
+    padding: 12px 24px;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.reseña button:hover {
+    background-color: #a0a098;
+}
+
+.registros {
+    background-image: url(photos/fondo-hojas.jpg); /* ruta de tu imagen */
+    background-size: cover;      /* que cubra toda la sección */
+    background-position: center; /* centrado */
+    background-repeat: no-repeat;
+    height: 100vh;               /* ocupa toda la altura del viewport */
+    display: flex;               /* para centrar el contenido */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: rgb(255, 255, 255);                /* texto blanco encima de imagen oscura */
+    padding: 0 20px;
+}
+
+.registro{
+    display: flex;               /* para centrar el contenido */
+    flex-direction: column;      /*lo separo en columnas*/
+    justify-content: center; 
+    align-items: center;
+    gap: 15px;
+    max-width: 500px;
+    width: 100%;
+}
+
+.registros h2 {
+    font-size: 3rem;
+    font-weight: normal;
+    margin-bottom: 20px;
+}
+
+.registro h3 {
+    margin-top: 20px;
+    font-size: 1.2rem;
+}
+
+.registro input {
+    margin-top: 20px;
+    font-size: 1.5rem;
+}
+
+.registro button {
+    background-color: rgba(255, 255, 255, 0.3);
+    border: none;
+    padding: 12px 24px;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.giftcard {
+    display: flex;
+    align-items: center;          /* Centrado vertical */
+    justify-content: center;      /* Centrado horizontal si hay espacio */
+    gap: 50px;                    /* Espacio entre la imagen y el texto */
+    background-color: #9c9b90;    /* Color de fondo similar al de la imagen */
+    padding: 60px 40px;
+    flex-wrap: wrap;  
+}
+
+.gift-card {
+    flex: 1 1 300px;              /* Se adapta pero mínimo 300px */
+}
+
+.giftcard div:nth-child(2) {
+    flex: 1 1 800px;
+    color: white;
+    max-width: 700px;
+}
+
+.giftcard h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.gift-card img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.giftcard h4 {
+    font-weight: normal;
+    margin-bottom: 30px;
+    line-height: 1.6;
+    text-align: justify;
+}
+  
+.giftcard button {
+    background-color: white;
+    color: #9c9b90;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+footer {
+    background-color: #2c2c2a; /* fondo oscuro */
+    color: #fff; /* texto blanco */
+    padding: 40px 60px;
+    font-family: 'Georgia', serif;
+  }
+  
+  .footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+  }
+  
+  .footer-container-left {
+    flex: 1;
+    min-width: 200px;
+  }
+  
+  .footer-container-left h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .footer-container-left p {
+    font-size: 14px;
+    margin-bottom: 20px;
+  }
+  
+  .footer-container-left a img {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+    filter: brightness(0) invert(1); /* blanco si es ícono negro */
+  }
+  
+  .footer-container-right {
+    flex: 1;
+    min-width: 200px;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .footer-container-right-links {
+    display: flex;
+    gap: 40px;
+  }
+  
+  .footer-container-right-links ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-container-right-links li {
+    margin-bottom: 10px;
+  }
+  
+  .footer-container-right-links a {
+    color: #ccc;
+    text-decoration: none;
+    font-size: 14px;
+    transition: color 0.3s;
+  }
+  
+  .footer-container-right-links a:hover {
+    color: #fff;
+  }
